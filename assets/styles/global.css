@@ -1,134 +1,202 @@
-* {
-    border: solid 1px;
-    list-style: none;
-    font-family: 'Ubuntu', Arial, sans-serif;
-}
-
-#header {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 117px;
-    background-color: #2E948A;
-}
-
-#nav-header {
-    height: auto;
-    width: 50%px;
-    padding-right: 5%;
-}
-
-#nav-header li {
-    display: inline-block;
-    float: right;
-    padding-left: 37px;
-}
-
-#nav-header li a {
-    display: inline-block;
-    color: #FDFDFD;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-#logo-header {
-    width: 244px;
-    margin-left: 5%;
-}
-
-#logo-header a {
-    background-image: url(../images/logo-header.png);
-    display: block;
-    height: 77px;
-    width: 244px;
-}
-
-#footer {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 207px;
-    background-color: #419488;
-}
-
-#logo-footer {
-    width: 312px
-}
-
-
-/* #nav-footer {
-    width: 30%
-} */
-
-#link-footer {
-    width: 50%
-}
-
-#link-footer a {
-    color: #FDFDFD;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: lowercase;
-    border: 2px solid white;
-    border-radius: 62px;
-    padding: 14px 51px;
-    display: block;
-    margin: 10px 22% 10px 130px;
-    text-align: center;
-    width: 289px;
-}
-
-#logo-footer a {
-    background-image: url(../images/logo-footer.png);
-    display: block;
-    height: 102px;
-    width: 312px;
-}
-
-ul {
-    margin: 0px;
-    border: none;
-}
-
-header div nav ul li:nth-child(3) {
-    padding-left: 0 !important;
-}
-
-
-/* @media only screen and (max-width: 769px) {
-    #logo-footer {
-        width: 20%;
+    * {
+        /* border: solid 1px; */
+        list-style: none;
+        font-family: 'Ubuntu', Arial, sans-serif;
     }
-    #link-footer {
-        width: 20%;
-    }
-    #footer {
-        height: 117px;
-    }
-} */
-
-@media only screen and (max-width: 481px) {
+    /*-----------------------HEADER-----------------------*/
+    
     #header {
-        flex-direction: column;
-        justify-content: space-evenly
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 117px;
+        background-color: #2E948A;
     }
+    
+    #nav-header {
+        height: auto;
+        width: 50%px;
+        padding-right: 5%;
+    }
+    
+    #nav-header li {
+        display: inline-block;
+        float: right;
+        padding-left: 37px;
+    }
+    
+    #nav-header li a {
+        display: inline-block;
+        color: #FDFDFD;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    header div nav ul li:nth-child(3) {
+        padding-left: 0 !important;
+    }
+    
     #logo-header {
         width: 244px;
-        margin: 0;
+        margin-left: 5%;
+    }
+    
+    #logo-header a {
+        color: transparent;
+        background-image: url(../images/logo-header.png);
+        display: block;
+        height: 77px;
+        width: 244px;
+    }
+    /*-----------------------FOOTER-----------------------*/
+    
+    #footer {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 207px;
+        background-color: #419488;
+    }
+    
+    #logo-footer {
+        margin-left: 10%;
+        width: 312px
+    }
+    
+    #nav-footer a {
+        display: block;
+        text-decoration: none;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+    
+    #link-footer {
+        width: 289px;
+        margin-right: 10%;
+    }
+    
+    #link-footer a {
+        color: #FDFDFD;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: lowercase;
+        border: 2px solid white;
+        border-radius: 62px;
+        display: block;
+        text-align: center;
+        padding: 12px;
+        margin: 13px;
+    }
+    
+    #logo-footer a {
+        color: transparent;
+        background-image: url(../images/logo-footer.png);
+        display: block;
+        height: 102px;
+        width: 312px;
+    }
+    
+    ul {
+        margin: 0px;
         padding: 0;
+        border: none;
     }
-    #nav-footer {
-        display: none;
+    /*-----------------------RESPONSIVO IPADMINI-----------------------*/
+    
+    @media only screen and (max-width: 769px) {
+        #logo-footer {
+            margin-left: 5%;
+        }
+        #link-footer {
+            width: 250px;
+            margin-right: 5%;
+        }
     }
-}
-
-@media only screen and (max-width: 685px) {
-    #nav-header li a {
-        font-size: 14px;
+    /*-----------------------RESPONSIVO MOBILE-----------------------*/
+    /*-----------------------RESPONSIVO MOBILE-HEADER------------------*/
+    
+    @media only screen and (max-width: 715px) {
+        #header {
+            flex-direction: column;
+            justify-content: space-evenly
+        }
+        #logo-header {
+            width: 244px;
+            margin: 0;
+            padding: 0;
+        }
+        #nav-header li a {
+            font-size: 14px;
+        }
+        #nav-header {
+            padding-right: 0;
+        }
+        /*-----------------------RESPONSIVO MOBILE-FOOTER------------------*/
+        #footer {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            align-content: center;
+            justify-content: space-evenly;
+            height: auto;
+            padding: 10px 0;
+        }
+        /*  
+    */
+        #logo-footer {
+            width: 210px;
+            margin: 0;
+        }
+        #logo-footer a {
+            background-image: url('../images/logo-footer.png') no-repeat;
+            background-size: contain;
+            display: block;
+            width: 210px;
+            height: 70PX;
+        }
+        /* 
+     */
+        #nav-footer {
+            width: 150px;
+            margin: 0;
+            padding: 0;
+        }
+        #nav-footer a {
+            font-size: 14px;
+            text-align: right;
+            height: 25px;
+        }
+        /* 
+     */
+        #link-footer {
+            width: 100%;
+            margin-right: 0;
+        }
+        #link-footer a {
+            font-size: 14px;
+            min-width: 140px;
+            max-width: 233px;
+            margin: 0px auto;
+        }
+        #link-footer ul li:nth-child(2) {
+            margin: 10px 0 5px 0;
+        }
+        /* 
+     */
     }
-}
+    
+    @media only screen and (max-width: 359px) {
+        #nav-footer a {
+            font-size: 14px;
+            text-align: center;
+            height: 25px;
+        }
+    }
