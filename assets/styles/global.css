@@ -1,0 +1,134 @@
+* {
+    border: solid 1px;
+    list-style: none;
+    font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 117px;
+    background-color: #2E948A;
+}
+
+#nav-header {
+    height: auto;
+    width: 50%px;
+    padding-right: 5%;
+}
+
+#nav-header li {
+    display: inline-block;
+    float: right;
+    padding-left: 37px;
+}
+
+#nav-header li a {
+    display: inline-block;
+    color: #FDFDFD;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#logo-header {
+    width: 244px;
+    margin-left: 5%;
+}
+
+#logo-header a {
+    background-image: url(../images/logo-header.png);
+    display: block;
+    height: 77px;
+    width: 244px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 207px;
+    background-color: #419488;
+}
+
+#logo-footer {
+    width: 312px
+}
+
+
+/* #nav-footer {
+    width: 30%
+} */
+
+#link-footer {
+    width: 50%
+}
+
+#link-footer a {
+    color: #FDFDFD;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: lowercase;
+    border: 2px solid white;
+    border-radius: 62px;
+    padding: 14px 51px;
+    display: block;
+    margin: 10px 22% 10px 130px;
+    text-align: center;
+    width: 289px;
+}
+
+#logo-footer a {
+    background-image: url(../images/logo-footer.png);
+    display: block;
+    height: 102px;
+    width: 312px;
+}
+
+ul {
+    margin: 0px;
+    border: none;
+}
+
+header div nav ul li:nth-child(3) {
+    padding-left: 0 !important;
+}
+
+
+/* @media only screen and (max-width: 769px) {
+    #logo-footer {
+        width: 20%;
+    }
+    #link-footer {
+        width: 20%;
+    }
+    #footer {
+        height: 117px;
+    }
+} */
+
+@media only screen and (max-width: 481px) {
+    #header {
+        flex-direction: column;
+        justify-content: space-evenly
+    }
+    #logo-header {
+        width: 244px;
+        margin: 0;
+        padding: 0;
+    }
+    #nav-footer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    #nav-header li a {
+        font-size: 14px;
+    }
+}
