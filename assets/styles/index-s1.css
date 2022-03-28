@@ -4,6 +4,11 @@ main * {
     text-decoration: none;
 }
 
+
+/* #section1 {
+    display: none !important;
+} */
+
 #imagem-banner {
     height: 512px;
     width: 501px;

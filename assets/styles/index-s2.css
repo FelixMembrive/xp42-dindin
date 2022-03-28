@@ -1,0 +1,79 @@
+main #section2 * {
+    /* border: solid 1px; */
+    margin: 0;
+    text-decoration: none;
+}
+
+#section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 120px;
+    padding-right: 120px;
+    background: #F7F7F7;
+}
+
+#section2 article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section2 article h3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+    margin: 45px 0 23px 0;
+}
+
+#section2 article p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    width: 288px;
+    margin-bottom: 26px;
+}
+
+#section2 article a {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF4081;
+    border-radius: 62px;
+    width: 233px;
+    padding: 14px;
+    margin-bottom: 50px;
+}
+
+#section2 article:nth-child(1) div {
+    background-image: url(../images/ilustra-investimento.png);
+    background-size: cover;
+    height: 270px;
+    width: 288px;
+}
+
+#section2 article:nth-child(2) div {
+    background-image: url(../images/ilustra-poupando.png);
+    background-size: cover;
+    height: 270px;
+    width: 288px;
+}
+
+#section2 article:nth-child(3) div {
+    background-image: url(../images/ilustra-independencia.png);
+    background-size: cover;
+    height: 270px;
+    width: 288px;
+}
