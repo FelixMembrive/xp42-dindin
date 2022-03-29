@@ -1,0 +1,123 @@
+main #section4 * {
+    /* border: solid 1px; */
+    margin: 0;
+    text-decoration: none;
+}
+
+#section4 {
+    background: #E5E5E5;
+    padding-top: 91px;
+    padding-bottom: 53px;
+}
+
+#section4 div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#section4 article {
+    width: 319px;
+    margin: 0 50px;
+}
+
+#section4 img {
+    height: 193px;
+    width: 319px;
+    margin-bottom: 11px;
+}
+
+#section4 h4 {
+    margin: auto 20px;
+    padding-left: 128px;
+    text-transform: uppercase;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+    padding-bottom: 74px;
+}
+
+#section4 h6 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+}
+
+#section4 p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+#section4 h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 289px;
+    height: 51px;
+    margin: auto;
+    border-radius: 62px;
+    border: 2px solid #FF4081;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+}
+
+@media only screen and (max-width: 1200px) {
+    #section4 h4 {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    #section4 {
+        background: #E5E5E5;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #section4 h4 {
+        font-size: 25px;
+        line-height: 32px;
+        padding-bottom: 50px;
+    }
+    #section4 img {
+        height: 163px;
+        width: 270px;
+        margin-bottom: 11px;
+    }
+    #section4 p {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #section4 h5 {
+        width: 233px;
+        height: 40px;
+        font-size: 20px;
+    }
+    #section4 h6 {
+        text-align: center;
+        padding-bottom: 5px;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 32px;
+        color: #009688;
+    }
+}

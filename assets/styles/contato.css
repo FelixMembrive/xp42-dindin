@@ -1,0 +1,23 @@
+main {
+    padding-top: 105px;
+}
+
+legend {
+    color: #FF4084;
+    font-size: 40px;
+    font-weight: 700;
+    float: left
+}
+
+form div {
+    box-sizing: border-box;
+    width: 100%
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    padding: 10px 21px
+}
