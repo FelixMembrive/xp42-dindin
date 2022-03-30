@@ -1,0 +1,74 @@
+main * {
+    /* border: solid 1px; */
+    margin: 0;
+    text-decoration: none;
+}
+
+#section1 {
+    width: 80%;
+    margin: auto;
+}
+
+#section1 h1 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+}
+
+#section1 h1 span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #9D9D9D;
+}
+
+#section1 p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+    color: #000000;
+}
+
+#section1 h6 {
+    color: #009688;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+
+/* #section1 div {
+    width: 80%;
+} */
+
+img {
+    margin: 0 10%;
+    aspect-ratio: 1032/465;
+    width: 100%
+}
+
+
+/*-----------------------RESPONSIVO IPADMINI-----------------------*/
+
+@media only screen and (max-width: 769px) {}
+
+
+/*-----------------------RESPONSIVO MOBILE P-----------------------*/
+
+@media only screen and (max-width: 430px) {}
