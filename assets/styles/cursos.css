@@ -1,0 +1,174 @@
+main * {
+    /* border: solid 1px; */
+    margin: 0;
+    text-decoration: none;
+}
+
+main>div {
+    width: 100%;
+}
+
+main section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 98px;
+    margin-left: 98px;
+    padding-bottom: 50px;
+}
+
+main div section:nth-child(2) {
+    border-top: solid #C4C4C4 5px;
+    border-bottom: solid #C4C4C4 5px;
+}
+
+main h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+    margin-left: 5.5%;
+    margin-top: 82px;
+}
+
+main>p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+    margin-left: 5.5%;
+    margin-bottom: 82px;
+}
+
+#image {
+    aspect-ratio: 1 / 1;
+    height: 380px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+div section:nth-child(1) #image {
+    background: url(../images/ilustra-investimento.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div section:nth-child(2) #image {
+    background: url(../images/ilustra-poupando.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div section:nth-child(3) #image {
+    background: url(../images/ilustra-independencia.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#section1 article {
+    display: flex;
+    flex-direction: column;
+    max-width: 724px;
+}
+
+#section1 h3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    padding-top: 50px;
+}
+
+#section1 p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 37px;
+    margin-bottom: 53px;
+    max-width: 724px;
+}
+
+#section1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 233px;
+    height: 51px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #419488;
+    border-radius: 62px;
+    text-transform: lowercase;
+}
+
+@media only screen and (max-width: 600px) {
+    #image {
+        padding-left: 0;
+        padding-right: 0;
+        height: 300px;
+        width: 300px;
+        margin-top: 50px;
+    }
+    main h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 40px;
+        width: 100px;
+    }
+    main>p {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 40px;
+        width: 250px;
+    }
+    #section1 h3 {
+        font-size: 20px;
+        line-height: 23px;
+        padding-top: 30px;
+    }
+    #section1 p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        max-width: 724px;
+    }
+    main section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-bottom: 30px;
+    }
+    #section1 article {
+        align-items: center;
+    }
+    #section1 a {
+        width: 186px;
+        height: 41px;
+        font-size: 14px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #419488;
+        border-radius: 62px;
+    }
+}

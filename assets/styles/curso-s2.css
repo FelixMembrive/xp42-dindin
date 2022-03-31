@@ -1,0 +1,89 @@
+main #section2 * {
+    /* border: solid 1px; */
+    /* display: none; */
+    margin: 0;
+    text-decoration: none;
+}
+
+main>div {
+    background: #F7F7F7;
+}
+
+#section2 article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-width: 3px;
+    border-bottom: solid #C4C4C4;
+    margin-right: 98px;
+    margin-left: 98px;
+}
+
+#section2 article div:nth-child(1) {
+    width: 500px;
+}
+
+iframe {
+    aspect-ratio: 462/260;
+    width: 462px;
+}
+
+#section2 article div:nth-child(2) {
+    width: 500px;
+}
+
+#section2 article div h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+#section2 article div p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-top: 26px;
+}
+
+main>div>section:nth-child(3)>article {
+    border-bottom: none !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    #section2 article div h2 {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1195px) {
+    #section2 article div h2 {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #section2 article div:nth-child(1) {
+        width: 300px;
+    }
+    #section2 article {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    iframe {
+        aspect-ratio: 462/260;
+        width: 300px;
+    }
+    #section2 article div:nth-child(2) {
+        width: 280px;
+    }
+}

@@ -15,9 +15,8 @@ main * {
 } */
 
 #imagem-banner {
-    height: 512px;
-    width: 501px;
-    background-image: url(../images/ilustra-banner.png);
+    height: 380px;
+    width: 381px;
     margin-bottom: 25px;
 }
 
@@ -35,8 +34,8 @@ main * {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
-    line-height: 69px;
+    font-size: 55px;
+    line-height: 63px;
     color: #FF4081;
     width: 415px;
     margin-bottom: 30px;
@@ -45,11 +44,12 @@ main * {
 #section1 h5 {
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 27px;
-    color: #555555;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
     margin-bottom: 30px;
+    width: 461px;
 }
 
 #section1 a {
@@ -94,9 +94,6 @@ main * {
 /*-----------------------RESPONSIVO MOBILE P-----------------------*/
 
 @media only screen and (max-width: 430px) {
-    #imagem-banner {
-        background-image: url(../images/ilustra-banner.png);
-    }
     #section1 h1,
     #section1 h5 {
         width: 284px;
