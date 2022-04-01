@@ -1,23 +1,81 @@
-main {
-    padding-top: 105px;
+main * {
+    /* border: solid 1px; */
+    margin: 0;
+    text-decoration: none;
+}
+
+form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+#imagem-contato {
+    background-image: url(../images/ilustra-contato.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    aspect-ratio: 1/1;
+    width: 450px;
+}
+
+.screen-reader-only {
+    display: none;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    height: auto;
 }
 
 legend {
-    color: #FF4084;
-    font-size: 40px;
+    font-family: 'Ubuntu';
+    font-style: normal;
     font-weight: 700;
-    float: left
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+    margin-bottom: 44px;
 }
 
-form div {
+input,
+textarea {
     box-sizing: border-box;
-    width: 100%
+    width: 493px;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding-left: 25px;
 }
 
-form input,
-form textarea {
-    width: 100%;
-    border: 1px solid #686868;
-    border-radius: 7px;
-    padding: 10px 21px
+textarea {
+    padding-top: 10px;
+}
+
+input {
+    height: 32px;
+}
+
+#botao-enviar {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 108px;
+    height: 32px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    background: #FF4081;
+    border: none;
+    border-radius: 50px;
+    padding-left: 0px;
 }
