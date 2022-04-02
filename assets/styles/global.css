@@ -18,13 +18,12 @@
 
 #nav-header {
     height: auto;
-    width: 50%px;
     padding-right: 5%;
 }
 
 #nav-header li {
     display: inline-block;
-    float: right;
+    float: left;
     padding-left: 37px;
 }
 
@@ -37,7 +36,7 @@
     text-transform: uppercase;
 }
 
-header div nav ul li:nth-child(3) {
+header div nav ul li:nth-child(1) {
     padding-left: 0 !important;
 }
 
@@ -164,6 +163,8 @@ ul {
     #logo-footer {
         width: 210px;
         margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     #logo-footer a {
         background-image: url('../images/logo-footer.png') no-repeat;

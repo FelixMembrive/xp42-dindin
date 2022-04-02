@@ -49,17 +49,11 @@ main #section2 * {
 #section2 article a {
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #FFFFFF;
-    background: #FF4081;
-    border-radius: 62px;
-    width: 205px;
-    padding: 14px;
-    margin-bottom: 100px;
-    text-transform: lowercase;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FF4081;
+    margin: 19px 0 19px 0;
 }
 
 #section2 article:nth-child(1) div {
