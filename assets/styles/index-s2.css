@@ -22,13 +22,7 @@ main #section2 * {
 }
 
 #section2 article h3 {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
     text-align: center;
-    color: #FF4081;
     margin: 45px 0 23px 0;
 }
 

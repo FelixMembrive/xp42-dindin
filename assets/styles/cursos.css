@@ -22,14 +22,8 @@ main div section:nth-child(2) {
     border-bottom: solid #C4C4C4 5px;
 }
 
-main h2 {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 69px;
+main h2 {    
     text-transform: capitalize;
-    color: #FF4081;
     margin-left: 5.5%;
     margin-top: 82px;
 }
@@ -78,12 +72,6 @@ div section:nth-child(3) #image {
 }
 
 #section1 h3 {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 40px;
-    color: #FF4081;
     padding-top: 50px;
 }
 
@@ -127,25 +115,15 @@ div section:nth-child(3) #image {
         margin-top: 50px;
     }
     main h2 {
-        font-size: 40px;
-        line-height: 50px;
         margin-top: 40px;
         width: 100px;
     }
     main>p {
-        font-size: 14px;
-        line-height: 16px;
         margin-bottom: 40px;
         width: 250px;
     }
-    #section1 h3 {
-        font-size: 20px;
-        line-height: 23px;
-        padding-top: 30px;
-    }
+
     #section1 p {
-        font-size: 14px;
-        line-height: 18px;
         margin-top: 20px;
         margin-bottom: 30px;
         max-width: 724px;
@@ -164,8 +142,6 @@ div section:nth-child(3) #image {
     #section1 a {
         width: 186px;
         height: 41px;
-        font-size: 14px;
-        line-height: 23px;
         text-align: center;
         color: #FFFFFF;
         background: #419488;

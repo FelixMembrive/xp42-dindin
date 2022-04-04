@@ -32,12 +32,12 @@ main * {
 }
 
 #section1 h1 {
-    font-family: 'Ubuntu';
+    /* font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
-    color: #FF4081;
+    color: #FF4081; */
     width: 415px;
     margin-bottom: 30px;
 }
@@ -82,7 +82,7 @@ main * {
         margin: 50px auto;
     }
     #section1 h1 {
-        font-size: 45px;
+        /* font-size: 45px; */
     }
     #section1 h1,
     #section1 h5 {
@@ -101,10 +101,10 @@ main * {
     #section1 h5 {
         width: 284px;
     }
-    #section1 h1 {
+    /* #section1 h1 {
         font-size: 40px;
         line-height: 55px;
-    }
+    } */
     #section1 h5,
     #section1 a {
         font-size: 20px;
