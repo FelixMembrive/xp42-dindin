@@ -1,19 +1,25 @@
-.titulo60_rosa {
+html {
+    font-size: 62.5%;
+}
+
+.tittle60-pink {
     color: #FF4081;
+    font-size: 6rem;
 
 }
 
-.titulo50_rosa {
+.tittle50-pink {
     color: #FF4081;
+    font-size: 5rem;
 
 }
 
-.titulo50_verde {
+.tittle50-green {
     color: #009688;
 
 }
 
-.subtitulo25_rosa {
+.subtittle25_rosa {
     color: #FF4081;
 
 }
